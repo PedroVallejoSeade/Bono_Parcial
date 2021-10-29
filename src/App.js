@@ -1,12 +1,11 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Joke from './components/Joke/Joke'
+import './App.css'
+import Gallery from './components/Gallery/Gallery'
 
-function App() {
+const App =()=>{
+  
   return (
     <div className="App">
-      <Joke/>
+      <Gallery/>
     </div>
   );
 }
