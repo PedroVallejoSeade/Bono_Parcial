@@ -1,15 +1,8 @@
 body {
-  margin: 0;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   background: brown;
-  color: #fff;
-  text-align: center;
-  display: grid;
+  color: #000;
   align-items: center;
   font-family: "Montserrat";
-  font-size: 3em;
-  padding: 2em;
 }
 
 body,
@@ -20,4 +13,8 @@ html {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+a {
+  font-weight: bold;
 }
